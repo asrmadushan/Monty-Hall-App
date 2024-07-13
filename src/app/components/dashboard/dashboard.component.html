@@ -1,0 +1,14 @@
+<section class="app-container">
+    <header>
+    <mat-toolbar color="primary">
+        Monty Hall Game
+      </mat-toolbar>
+  </header>
+  <section class="content-container">
+    <mat-grid-list cols="3">
+        <mat-grid-tile>  <mat-card  (click)="onCardClick('1')" matRipple class="clickable mat-card-customize card-one" ><span class="number-style">1</span></mat-card></mat-grid-tile>
+        <mat-grid-tile>  <mat-card (click)="onCardClick('2')" matRipple class="clickable mat-card-customize card-two" ><span class="number-style">2</span></mat-card></mat-grid-tile>
+        <mat-grid-tile>  <mat-card (click)="onCardClick('3')" matRipple class="clickable mat-card-customize card-three" ><span class="number-style">3</span></mat-card></mat-grid-tile>
+      </mat-grid-list>
+  </section>
+  </section>
